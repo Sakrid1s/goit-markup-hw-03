@@ -69,7 +69,12 @@ address {
   padding-bottom: 24px;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-navigation {
+  display: flex;
 }
 
 .header-logo {
@@ -80,6 +85,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 /*.header-logo span {
@@ -91,6 +97,8 @@ address {
 }
 
 .header-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-menu-item {
@@ -111,9 +119,12 @@ address {
 }
 
 .header address {
+  margin-left: auto;
 }
 
 .header-address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .header-address-item {
@@ -141,7 +152,7 @@ address {
 }
 
 .hero-container {
-  padding: 188px;
+  padding: 188px 0 188px 0;
 }
 
 .hero-title {
@@ -317,7 +328,7 @@ address {
 }
 
 .footer-container {
-  padding: 100px;
+  padding: 100px 0 100px 0;
 }
 
 .footer-logo {
@@ -328,6 +339,8 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-iris {
@@ -340,7 +353,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 16px;
 }
 
 /*=============================FOOTER=============================*/
