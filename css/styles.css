@@ -230,11 +230,12 @@ address {
 /*=============================TEAM=============================*/
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /*padding-top: 120px;
+  padding-bottom: 120px;*/
 }
 
 .team-title {
