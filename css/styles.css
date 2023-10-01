@@ -65,13 +65,13 @@ address {
 /*=============================HEADER=============================*/
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /*padding: 24px 0;*/
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation {
@@ -112,6 +112,8 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -318,6 +320,7 @@ address {
 }
 
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
   /*padding-bottom: 32px;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);*/
 }
